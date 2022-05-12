@@ -1,0 +1,126 @@
+#product-splash {
+  background-image: url("syrup-splash.jpg");
+  min-height: 50vh;
+  background-size: cover;
+}
+
+#product-splash .card {
+  background-color: transparent;
+  border: 0px;
+  color: #FFFFFFD0;
+}
+
+#word-blob {
+  margin-top: 0.4em;
+  /* min-height: 42vh; */
+  background-color: #111111;
+  color: #EEEEEE;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  padding-top: 4vw;
+  padding-bottom: 4vw;
+}
+
+#word-blob p {
+  font-size: 2em;
+}
+
+#articles {
+  background-color: #f2f2f2;
+}
+
+#articles .card {
+  width: 20vw;
+  height: 20vw;
+  margin: 0.4em;
+  border-radius: 0px;
+  border: 0px;
+  background-color: transparent;
+}
+
+#articles .card img {
+  border-radius: 0px;
+}
+
+#articles .card .card-img-overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+}
+
+#articles .card .card-img-overlay .card-title {
+  color: #FFFFFF;
+  font-size: 2em;
+  text-shadow: 0px 0px 4px #000000;
+}
+
+#articles .card .card-body {
+  padding: 0px;
+  padding-top: 0.2rem;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: #111111;
+}
+
+footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#social-media {
+  margin-right: 5wv;
+}
+
+#social-media a {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: bolder;
+}
+
+#contact-info {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.email {
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 767.98px) {
+  #product-splash {
+    background-image: url("maple-trees.jpg");
+  }
+
+  #product-splash .card h1 {
+    font-size: 3em;
+    color: #000000d0;
+  }
+
+  #product-splash .card h2 {
+    color: #000000d0;
+  }
+
+  /* #word-blob {
+    padding-left: 10vw;
+    padding-right: 10vw;
+  } */
+
+  #word-blob p {
+    font-size: 1em;
+  }
+
+  #articles {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #articles .card {
+    width: 80vw;
+    height: 80vw;
+    margin-bottom: 10vw;
+  }
+}
