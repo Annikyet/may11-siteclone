@@ -1,6 +1,9 @@
+/* #product-splash::before {
+} */
+
 #product-splash {
-  background-image: url("syrup-splash.jpg");
   min-height: 50vh;
+  background-image: url("syrup-splash.jpg");
   background-size: cover;
 }
 
@@ -61,8 +64,8 @@
 }
 
 footer {
-  display: flex;
-  justify-content: center;
+  /* display: flex;
+  justify-content: center; */
   background-color: #111111;
 }
 
@@ -73,6 +76,8 @@ footer a {
 
 #social-media {
   margin-right: 5wv;
+  margin-left: 5vw;
+  width: 40vw;
 }
 
 #social-media a {
@@ -81,9 +86,11 @@ footer a {
 }
 
 #contact-info {
-  display: flex;
-  flex-direction: column;
-
+  /* display: flex;
+  flex-direction: column; */
+  margin-left: 5vw;
+  margin-right: 5vw;
+  width: 40vw;
 }
 
 .email {
@@ -91,17 +98,20 @@ footer a {
 }
 
 @media only screen and (max-width: 767.98px) {
-  #product-splash {
-    background-image: url("maple-trees.jpg");
-  }
+  /* #product-splash {
+    filter:brightness(1.6);
+    filter:contrast(0.6);
+  } */
 
   #product-splash .card h1 {
     font-size: 3em;
-    color: #000000d0;
+    color: #ffffff;
+    text-shadow: 0px 0px 6px #000000;
   }
 
   #product-splash .card h2 {
-    color: #000000d0;
+    color: #ffffffc0;
+    text-shadow: 0px 0px 6px #000000;
   }
 
   /* #word-blob {
